@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj": {}
+    "C:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj": {
+    "C:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj",
+        "projectUniqueName": "C:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj",
         "projectName": "SimpleShopApp",
-        "projectPath": "c:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj",
+        "projectPath": "C:\\Users\\safa.am\\SimpleShopApp\\SimpleShopApp.csproj",
         "packagesPath": "C:\\Users\\safa.am\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\safa.am\\SimpleShopApp\\obj\\",
+        "outputPath": "C:\\Users\\safa.am\\SimpleShopApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\safa.am\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.8, )"
